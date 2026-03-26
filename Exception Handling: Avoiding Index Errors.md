@@ -12,7 +12,35 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ## 🧾 Program
 Add code here
+~~
+try:
+    # Taking 3 elements input from the user
+    L = []
+    for i in range(3):
+        item = ['laptop','mobile','pen']
+        L.append(item)
+
+    # Trying to access index 4
+    print(L[4])
+
+except IndexError:
+    print("check index range")try:
+    # Taking 3 elements input from the user
+    L = []
+    for i in range(3):
+        item = ['laptop','mobile','pen']
+        L.append(item)
+
+    # Trying to access index 4
+    print(L[4])
+
+except IndexError:
+    print("check index range")
+
+~~
 
 ## Output
+![WhatsApp Image 2026-03-26 at 6 40 16 PM](https://github.com/user-attachments/assets/86f35bce-b158-469e-9fd8-52eaeab3f831)
 
 ## Result
+Thus the program executed successfully.
